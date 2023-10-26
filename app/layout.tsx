@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<head />
+			<head/>
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",
@@ -44,7 +44,7 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow w-full h-full">
 							{children}
 						</main>
-          </div>
+					</div>
 				</Providers>
 			</body>
 		</html>
